@@ -23,7 +23,7 @@ const Modal = (props) => {
     }
     useEffect(()=> {
         getDocByURL(props.selectedImage);
-        
+
         async function getDocByURL(url){
             const query = await projectFirestore.collection('images').where('url', '==', url).get();
     
@@ -55,7 +55,11 @@ const Modal = (props) => {
                     />
                     <div className={styles.InformationPanel}>
                         {Object.keys(information).map(key => {
-                            if(key!=="rating"){
+                            
+                            if(!props.isLoggedIn && key==="price"){
+                                return(null);
+                            }
+                            else if(key!=="rating"){
                                 return(
                                     <div className={styles.DataField} key={Math.random()}> {information[key]} </div>
                                 );

@@ -30,7 +30,7 @@ const newEntryHandler = () => {
       {(showUploadWindow && isLoggedIn) ? <UploadWindow setShowUploadWindow={setShowUploadWindow}/> : null}
 
       <ImageGrid setSelectedImg={setSelectedImg} />
-      {selectedImg && <Modal selectedImage={selectedImg} setSelectedImage={setSelectedImg}/>}
+      {selectedImg && <Modal selectedImage={selectedImg} setSelectedImage={setSelectedImg} isLoggedIn={isLoggedIn}/>}
     </div>
   );
 }
