@@ -69,7 +69,8 @@
   }
   .InformationPanel{
     margin-top: 5px;
-    height: 250px;
+    padding: 5px;
+    height: 260px;
     width: 100%;
     background-color: rgb(252, 246, 246);
   }
