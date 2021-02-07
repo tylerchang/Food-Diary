@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
+.Email{
+    font-family: "Noto Serif";
+    font-size: 12px;
+    padding: 6px;
+    margin: 5px;
+    border: 1px solid #efb6b2;
+    outline: none;
+    color: rgb(147, 142, 142);
+}
+
+
+.Password{
+    font-family: "Noto Serif";
+    font-size: 12px;
+    padding: 6px;
+    margin: 5px;
+    border: 1px solid #efb6b2;
+    outline: none;
+    color: rgb(147, 142, 142);
+}
+
+.LoginButton{
+    font-family: "Noto Serif";
+    font-size: 12px;
+    border: 1px solid #efb6b2;
+    color: #efb6b2;
+    border-radius: 2px;
+    background-color:white;
+    padding: 6px;
+    margin: 5px;
+}
+
+.LoginButton:hover{
+    color: white;
+    background-color: #efb6b2;
+    cursor: pointer;
+}

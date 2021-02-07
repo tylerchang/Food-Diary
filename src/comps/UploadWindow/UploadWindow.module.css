@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
+.UploadWindow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Noto Serif";
+}
+
+.UploadWindow > input{
+    font-size: 20px;
+    border: 1px solid #efb6b2;
+    width: 50%;
+    margin: 15px;
+    font-family: "Noto Serif";
+    outline: none;
+    color: rgb(147, 142, 142);
+    padding: 6px;
+}
+
+.UploadButton{
+    font-family: "Noto Serif";
+    font-size: 16px;
+    border: 1px solid #efb6b2;;
+    border-radius: 2px;
+    color: #efb6b2;
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+}
+
+.UploadButton:hover{
+    cursor: pointer;
+    background-color:#efb6b2;
+    color: white;
+}
+
+.XButton{
+    color:#efb6b2;
+    font-family: "Noto Serif";
+    border-radius: 50%;
+    font-size: 12px;
+    border: 1px solid #efb6b2;;
+    background-color:rgb(255, 255, 255);
+    height: 25px;
+    width: 25px;
+    margin: 5px;
+}
+
+.XButton:hover{
+    cursor:pointer;
+    background-color: #efb6b2;;
+    color: white;
+}
