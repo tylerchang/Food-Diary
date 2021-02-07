@@ -70,6 +70,7 @@
   .InformationPanel{
     margin-top: 5px;
     width: 100%;
+    background-color: rgb(252, 246, 246);
   }
   .Image{
    width: 100%;
@@ -77,7 +78,7 @@
    border: 1px solid white;
   }
   .DataField{
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 
