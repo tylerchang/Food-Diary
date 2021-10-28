@@ -10,6 +10,7 @@
     "framer-motion": "^3.2.2-rc.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-lazy-load-image-component": "^1.5.1",
     "react-scripts": "3.4.1"
   },
   "scripts": {
